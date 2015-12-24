@@ -7,3 +7,14 @@ $(document).ready(function(){
 		pager: false //show the pagination
 	});
 });
+
+//wow.js init
+
+wow = new WOW(
+	{
+		animateClass: 'animated',
+		mobile: false,
+		offset: 100
+	}
+);
+wow.init();
