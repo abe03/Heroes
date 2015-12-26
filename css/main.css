@@ -361,6 +361,46 @@ header nav ul .selected {
     margin-right: 0;
 }
 
+/* Call to action */
+.cta {
+    width: 100%;
+    padding: 100px 0;
+    background: #fafafa;
+    text-align: center;
+}
+
+.cta .cta_title {
+    color: #5e5e5e;
+    font-family: "raleway-bold", arial;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.cta a {
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: #ff4141;
+    color: #fff;
+    font-family: "raleway-regular", arial;
+    font-size: 18px;
+    letter-spacing: .5px;
+
+    border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+    transition:all .2s linear;
+    -o-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.cta a:hover {
+    background: #f23131;
+}
 
 
 
