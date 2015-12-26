@@ -343,6 +343,53 @@ header nav ul .selected {
     background: url('../img/p_logo2_hover.png') no-repeat;
 }
 
+/* Clients */
+.clients {
+    padding: 100px 0;
+}
+
+.client_list ul {
+    list-style: none;
+}
+
+.client_list ul li {
+    float: left;
+    margin-right: 50px;
+}
+
+.client_list ul li:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
