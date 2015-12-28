@@ -400,11 +400,123 @@ header nav ul .selected {
 
 .cta a:hover {
     background: #f23131;
+}/**End call to action**/
+
+/* Footer */
+footer {
+    padding: 100px 0;
 }
 
+footer .copyright {
+    width: 333px;
+    height: auto;
+    margin-right: 50px;
+    float: left;
+}
 
+footer .copyright .footer_logo {
+    margin-bottom: 38px;
+}
 
+footer .copyright p {
+    color: #8d8b8b;
+    font-family: "raleway-regular", arial;
+    font-size: 12px;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
+}
 
+footer .copyright p a {
+    text-decoration: none;
+    font-family: "raleway-bold", arial;
+    font-weight: bold;
+    color: #8d8b8b;
+}
+
+footer .footer_links {
+    width: 717px;
+    float: right;
+}
+
+footer .footer_links .columns {
+    width: 212px;
+    float: left;
+    margin-right: 40px;
+}
+
+footer .footer_links .columns:last-child {
+    margin-right: 0;
+}
+
+footer .footer_links .columns_title {
+    color: #5e5e5e;
+    font-family: "raleway-bold",arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+footer .footer_links ul li {
+    list-style: none;
+    display: block;
+    margin-bottom: 30px;
+}
+
+footer .footer_links ul li a {
+    text-decoration: none;
+    color: #8c8b8b;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    letter-spacing: .5px;
+
+    transition:all .2s linear;
+    -o-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -webkit-transition:all .2s linear;;
+}
+
+footer .footer-links ul li a:hover {
+    color: #3c3c3c;
+}
+
+footer .sm ul li a:before {
+    content:"";
+    display: inline-block;
+    width: 15px;
+    margin-right: 20px;
+}
+
+footer .sm ul li .facebook:before {
+    height: 14px;
+    background: url('../img/fb.png') no-repeat;
+    vertical-align: middle;
+}
+
+footer .sm ul li .twitter:before {
+    height: 14px;
+    background: url('../img/twitter.png') no-repeat;
+    vertical-align: middle;
+}
+
+footer .sm ul li .google:before {
+    height: 14px;
+    background: url('../img/google.png') no-repeat;
+    vertical-align: middle;
+}
+
+footer .address p {
+    color: #8c8b8b;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    margin-bottom: 30px;
+    letter-spacing: .5px;
+}
+
+footer .address .phone {
+    display: block;
+    font-family: "raleway-bold", arial;
+    font-weight: bold;
+}
 
 
 
